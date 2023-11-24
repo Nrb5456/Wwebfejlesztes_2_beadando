@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+}
+
+.login_center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_body {
+    background-color: white;
+    width: 300px;
+    border-radius: 30px;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 3px solid black;
+}
+
+.username, .username:focus {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: solid;
+    border-color: gray;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('user.png');
+    background-size: 20px 20px;
+    background-position: 4% 48%;
+    background-repeat: no-repeat;
+    padding: 12px 5px 12px 40px;
+    outline: none;
+    color: gray;
+}
+
+.password, .password:focus {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: solid;
+    border-color: gray;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('padlock.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 4% 48%;
+    padding: 12px 5px 12px 40px;
+    outline: none;
+    color: gray;
+}
+
+.login_body label {
+    color: black;
+}
+
+[type="checkbox"] {
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+}
+
+.check_button {
+    color: black;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.login_button {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
